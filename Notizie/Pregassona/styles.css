@@ -247,8 +247,12 @@ a:-webkit-any-link {
     }
 
     .logomb {
-        max-width: 20px;
+        height: 50px;
+        width: 40px;
+        padding-top: 3px;
+        margin-bottom: 5px;
     }
+
 
     .header-container {
         flex-direction: line;
