@@ -305,7 +305,8 @@ a:-webkit-any-link {
     }
 
     .sfera {
-        margin-top: 20px;
+        margin-top: 20%;
+        position: absolute;
     }
 
     .news-content {
