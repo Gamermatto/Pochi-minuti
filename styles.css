@@ -289,7 +289,7 @@ a:-webkit-any-link {
         padding: 0.3rem 0.6rem;
         margin-top: 40px;
         margin-bottom: 10px;
-        position: relative; /* Cambiato da 'absolute' (se presente) a 'relative' */
+        position: absolute; /* Cambiato da 'absolute' (se presente) a 'relative' */
     }
 
     .news {
@@ -301,7 +301,7 @@ a:-webkit-any-link {
         font-size: 1.1rem;
         padding: 10px;
         margin-top: 20px; /* Aggiungi un margine superiore per separarlo dal tag di breaking news */
-        position: absolute; /* Cambiato da 'absolute' (se presente) a 'relative' */
+        position: relative; /* Cambiato da 'absolute' (se presente) a 'relative' */
     }
 
     .sfera {
