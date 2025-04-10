@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pochi minuti</title>
+    <link rel="icon" href="images/Logo.PNG"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <img src="images/Logo.PNG" alt="Pochi minuti" width="50">
+                <span class="logo-text">Pochi Minuti</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#politica" class="nav-link">Politica</a></li>
+                    <li><a href="#economia" class="nav-link">Economia</a></li>
+                    <li><a href="#cronaca" class="nav-link">Cronaca</a></li>
+                    <li><a href="#cultura" class="nav-link">Cultura</a></li>
+                    <li><a href="#sport" class="nav-link">Sport</a></li>
+                </ul>
+            </nav>
+            <div class="header-tools">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="breaking-news" onclick="window.location.href='/Notizie/html.html'" cursor: pointer>
+            <div class="breaking-news-tag">ULTIM'ORA</div>
+            <h1 class="breaking-news-title">Sfera Ebbasta bandito dalla svizzera</h1>
+            <img src="images/sfera-ebbasta-400816.jpg" alt="Crisi diplomatica" class="breaking-news-image">
+        </section>
+
+        <section class="news-grid">
+            <article class="news-card">
+                <img src="images/Pregassona.jpeg" alt="Economia" class="news-image">
+                <div class="news-content">
+                    <span class="news-category">Ticino</span>
+                    <h2 class="news-title">Pregassona, il poliziotto si è consegnato come ostaggio
+                    </h2>
+                    <p class="news-excerpt">Il barricato conferma che il poliziotto si è arreso...</p>
+                    <div class="news-meta">
+                        <span class="news-author">Di Marco Bianchi</span>
+                        <span class="news-date">2 ore fa</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="images/Borse.jpg" alt="Tecnologia" class="news-image">
+                <div class="news-content">
+                    <span class="news-category">Economia</span>
+                    <h2 class="news-title">Borsa svizzera, è la peggior giornata di tante</h2>
+                    <p class="news-excerpt">La federazione Svizzera da la colpa a Trump...</p>
+                    <div class="news-meta">
+                        <span class="news-author">Di Anna Rossi</span>
+                        <span class="news-date">4 ore fa</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <div class="most-read">
+                <h3> Più letti </h3> <br>
+                <ul class="most-read-list">
+                    <li><a href="#">Scandalo politico: tutti i dettagli</a></li>
+                    <li><a href="#">Meteo: allerta maltempo in 5 regioni</a></li>
+                    <li><a href="#">La nuova tendenza dei giovani italiani</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>Redazione</h4>
+                <ul>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Contatti</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Termini di utilizzo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 Pochi minuti - Tutti i diritti riservati</p> <br> 
+            Ogni post fatto su Pochi minuti è da prendere sul ridere infatti ogni contenuto è ironi e allo scopo di far ridere il lettore. <br>
+            Affidatevi solo a telegiornali digitali importanti e non copie (Pochi minuti è affidabile).
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
