@@ -305,6 +305,10 @@ a:-webkit-any-link {
         position: absolute; /* Cambiato da 'absolute' (se presente) a 'relative' */
     }
 
+    .sfera {
+        margin-top: 20px;
+    }
+
     .news-content {
         padding: 1rem;
     }
