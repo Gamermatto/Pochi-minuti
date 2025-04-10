@@ -298,6 +298,7 @@ a:-webkit-any-link {
 
     .news-title {
         font-size: 1.1rem;
+        padding: 10px;
 
     .news-content {
         padding: 1rem;
