@@ -74,6 +74,7 @@ body {
 
 /* Breaking News Fix */
 .breaking-news {
+    cursor: pointer;
     grid-column: 1 / -1;
     position: relative;
     margin-top: -30px;
