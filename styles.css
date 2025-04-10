@@ -106,7 +106,7 @@ body {
     gap: 2rem;
 }
 
-.news-card {
+.news-card-pregassona {
     background: white;
     border-radius: 5px;
     overflow: hidden;
@@ -114,7 +114,19 @@ body {
     transition: transform 0.3s;
 }
 
-.news-card:hover {
+.news-card-borsa {
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.news-card-borsa:hover {
+    transform: translateY(-5px);
+}
+
+.news-card-pregassona:hover {
     transform: translateY(-5px);
 }
 

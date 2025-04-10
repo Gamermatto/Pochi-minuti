@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pochi minuti</title>
     <link rel="icon" href="images/Logo.PNG"> 
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <header class="header">
         <div class="header-container">
             <a href="/" class="logo">
-                <img src="../images/Logo.PNG" alt="Pochi minuti" width="50">
+                <img src="/images/Logo.PNG" alt="Pochi minuti" width="50">
                 <span class="logo-text">Pochi Minuti</span>
             </a>
             <nav class="main-nav">
@@ -34,20 +34,34 @@
 
     <main class="main-content">
         <section class="breaking-news" onclick="window.location.href='/Notizie/html.html'">
-            <div class="breaking-news-tag">ULTIM'ORA</div>
-            <br>
-            <img src="../images/sfera-ebbasta-400816.jpg" alt="Crisi diplomatica" class="breaking-news-image">
+            <span class="news-category">Ticino</span>
+            <img src="/images/sfera-ebbasta-400816.jpg" alt="Crisi diplomatica" class="breaking-news-image">
         </section>
 
         <section class="news">
             <article class="news-card">
                 <!-- <img src="images/Pregassona.jpeg" alt="Economia" class="news-image"> -->
                 <div class="news-content">
-                    <span class="news-category">Ticino</span>
                     <h2 class="news-title">Scandalo: Sfera Ebbasta bandito dalla Svizzera
                     </h2>
-                    <p class="news-excerpt">La Svizzera, soprattutto quella italiana, sembra provare un forte odio per il trapper italiano Sfera Ebbasta. Il Comitato genitori della Svizzera italiana ha addirittura chiesto al direttore del festival OpenLake 2024 di annullare l’invito al musicista.Inoltre un padre, che fa parte di questo comitato, è preoccupato per suo figlio; perché da quando ha iniziato ad ascoltare Sfera Ebbasta ha smesso di parlare con loro, ha smesso di frequentare la scuola e ha iniziato a fumare, e presumibilmente anche a fare uso di droghe.</p>
-                    <div class="suca"><button>Prossima pagina</button></div>
+                    <p class="news-excerpt">La Svizzera, soprattutto quella italiana, sembra provare un forte odio per il trapper italiano Sfera Ebbasta. <br>
+                        Il Comitato genitori della Svizzera italiana ha addirittura chiesto al direttore del festival OpenLake 2024 di annullare l’invito al musicista.<br> 
+                        Inoltre un padre, che fa parte di questo comitato, è preoccupato per suo figlio; <br>
+                        perché da quando ha iniziato ad ascoltare Sfera Ebbasta ha smesso di parlare con loro, ha smesso di frequentare la scuola e ha iniziato a fumare,<br> 
+                        e presumibilmente anche a fare uso di droghe.</p>
+                        <div class="Testo2" id="testoEsteso">
+                            <p> Lo scorso 5 ottobre gli organizzatori del festival OpenLake 2024 avevano annunciato la partecipazione del trapper italiano Sfera Ebbasta. <br>
+                                Il musicista ha già accettato di partecipare con un compenso di 80'000 CHF per la serata. <br>
+                                Tuttavia il Comitato genitori della Svizzera italiana è totalmente in disaccordo con gli organizzatori del festival di fare partecipare il trapper italiano al festival a tal punto da chiedere al direttore del festival OpenLake di annullare il suo invito. <br>
+                                Carmen Fulcro, la rappresentante del Comitato genitori della Svizzera italiana, in una sua intervista, ha spudoratamente detto che Sfera Ebbasta non è un musicista ma uno che promuove droga libera, la donna-oggetto e il completo menefreghismo. <br> <br>
+                                Inoltre sconsiglia pienamente ai genitori di adolescenti di fare ascoltare la musica del trapper italiano ai loro figli perché è considerato un modello di vita sbagliato e volgare per dei ragazzi pronti a diventare adulti. Secondariamente c’è anche un padre, di un ragazzo di 16 anni, che dichiara che suo figlio è cambiato tantissimo da quando ha iniziato ad ascoltare Sfera Ebbasta. Da 2 anni che ha iniziato ad ascoltare il trapper italiano ha smesso di parlare con i genitori, di 
+                                frequentare la scuola e cominciato a fumare. Si presume anche l’assunzione di droghe. Però non ci sono solo persone che odiano Sfera Ebbasta in Svizzera. In un’intervista, un giovane fan del trapper italiano dice che solo perché lo ascolta non vuol dire che condivide quello che dice, né tantomeno cambia il suo modo di essere. Lo ascolta da circa 2 anni e gli piace il ritmo delle sue canzoni, e spera fortemente che possa partecipare all’OpenLake e che la gente smetta di scaricare addosso al trapper italiano delle colpe che nemmeno esistono.. <br> <br>
+                                ​Per concludere: la partecipazione di Sfera Ebbasta al festival OpenLake 2024 ha suscitato dibattiti accesi nella Svizzera italiana, mentre il Comitato genitori esprime preoccupazioni sul possibile impatto negativo della sua musica sui giovani e alcuni genitori che riportano cambiamenti nei comportamenti dei figli legati all'ascolto del trapper. <br> 
+                                D'altro canto,giovani fan difendono l'artista, sottolineando che l'ascolto della sua musica non implica necessariamente l'adozione dei comportamenti descritti nei suoi testi. <br> 
+                                Questo contrasto evidenzia la complessità del fenomeno musicale e le diverse percezioni culturali all'interno della comunità.</p>
+                        </div>
+                        
+                        <button class="bottone" id="buttones" onclick="toggleTesto()">Mostra di più</button>
                     
                     <div class="news-meta">
                         <span class="news-author">Di Marco Bianchi</span>

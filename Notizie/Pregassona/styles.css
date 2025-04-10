@@ -11,6 +11,18 @@ body {
     color: #333;
 }
 
+#testoEsteso {
+    display: none;
+    margin-top: 10px;
+}
+.bottone {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
 .logo {
     display: flex; /* Utilizza flexbox per allineare logo e testo */
     align-items: center; /* Allinea verticalmente gli elementi */
@@ -96,7 +108,7 @@ body {
     height: 500px; /* Altezza ridotta */
     object-fit: cover;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Resto del CSS invariato */
@@ -104,6 +116,10 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+}
+
+.Testo2 {
+    color: #666;
 }
 
 .news {
@@ -137,7 +153,6 @@ body {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.9rem;
-    margin-bottom: 0.5rem;
 }
 
 .news-title {
