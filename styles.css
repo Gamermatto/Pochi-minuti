@@ -235,7 +235,7 @@ a:-webkit-any-link {
 }
 
 /* Mobile Fix */
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
     .header {
         height: 60px; /* Altezza ridotta per mobile */
     }
@@ -298,8 +298,7 @@ a:-webkit-any-link {
 
     .news-title {
         font-size: 1.1rem;
-        padding-bottom: 5px;
-    }
+        margin-bottom: 20px;
 
     .news-content {
         padding: 1rem;
